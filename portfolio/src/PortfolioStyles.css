@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap);
+
+
+body {
+    background: black;
+    color: #79bad2;
+    font-family: 'Charm';
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #79bad2;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #183064;
+}
+
+header {
+    background-image: url('assets/CosmicLandscape.jpg');
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+    box-shadow: 0 0 21px 7px #fecbff91;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 21px 7px #fecbff91;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.HeaderTitle {
+    padding: 15px;
+    font-size: 36px;
+    color: lightblue;
+}
+
+.HeaderP {
+    font-size: 32px;
+    color: lightblue;
+}
+
+.AboutContainer {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.AboutItems {
+    border-radius: 25%;
+    box-shadow: 0 0 21px 7px lightblue;
+    background-color: rgba(0, 0, 81, 0.249);
+    margin: 20px;
+    padding: 40px;
+}
+
+.AboutHead {
+    text-align: center;
+    text-decoration: underline;
+    color: #e0bbff;
+    font-size: 32px;
+}
+
+.AboutItems p {
+    text-align: justify;
+    font-size: 28px;
+    color: lightsteelblue;
+    margin: 30px;
+    padding: 5px;
+}
+
+.ContactContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.ContactItem {
+    border-radius: 50%;
+    box-shadow: 0 0 21px 7px lightblue;
+    background-color: rgba(0, 0, 81, 0.25);
+
+}
+
+.ContactItem button {
+    border-color: lightblue;
+    border-radius: 50%;
+    background: transparent;
+    color: lightblue;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ContactItem:hover {
+    button {
+        background-color: lightblue;
+        color: black;
+    }
+    svg {
+        background-color: lightblue;
+        fill: black;
+    }
+}
+  
+svg {
+    fill: lightblue;
+    background-color: black;
+}
+
+/* svg:hover {
+    fill: black;
+    background-color: lightblue;
+} */
